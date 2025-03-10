@@ -33,13 +33,14 @@
         ></TextView>
 
     <EditText
+        android:inputType="number"
         android:id="@+id/input_absen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="150dp"
         android:background="@drawable/input_place"
-        android:text="Masukkan nilai absensi"
+        android:hint=""
         android:textColor="@color/grey"
         android:textSize="50px"
         android:paddingLeft="15dp"
@@ -60,13 +61,14 @@
         ></TextView>
 
     <EditText
+        android:inputType="number"
         android:id="@+id/input_tugas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_below="@+id/input_absen"
         android:background="@drawable/input_place"
-        android:text="Masukkan nilai tugas"
+        android:hint=""
         android:textColor="@color/grey"
         android:textSize="50px"
         android:paddingLeft="15dp"
@@ -89,13 +91,14 @@
         ></TextView>
 
     <EditText
+        android:inputType="number"
         android:id="@+id/input_uts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_below="@+id/input_tugas"
         android:background="@drawable/input_place"
-        android:text="Masukkan nilai UTS"
+        android:hint=""
         android:textColor="@color/grey"
         android:textSize="50px"
         android:paddingLeft="15dp"
@@ -118,13 +121,14 @@
         ></TextView>
 
     <EditText
+        android:inputType="number"
         android:id="@+id/input_uas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_below="@+id/input_uts"
         android:background="@drawable/input_place"
-        android:text="Masukkan nilai UAS"
+        android:hint=""
         android:textColor="@color/grey"
         android:textSize="50px"
         android:paddingLeft="15dp"
@@ -145,4 +149,27 @@
         android:fontFamily="@font/quicksand_bold"
         android:layout_marginTop="10dp"
         ></TextView>
+
+    <EditText
+        android:id="@+id/nilaiangka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/outputnilai"
+        android:layout_below="@+id/input_uas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/nilaihuruf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/outputnilai"
+        android:layout_below="@+id/nilaiangka"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        >
+    </EditText>
+
+
 </RelativeLayout>
