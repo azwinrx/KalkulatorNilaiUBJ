@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Kalkulator Nilai UBJ</string>
+    <string name="input_absen">Masukkan nilai absensi</string>
+    <string name="input_tugas">Masukkan nilai tugas</string>
+    <string name="input_uts">Masukkan nilai uts</string>
+    <string name="input_uas">Masukkan nilai uas</string>
 </resources>

@@ -32,125 +32,139 @@
         android:layout_below="@+id/Hi"
         ></TextView>
 
+
     <EditText
-        android:inputType="number"
         android:id="@+id/input_absen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp"
         android:layout_marginTop="150dp"
         android:background="@drawable/input_place"
-        android:hint=""
-        android:textColor="@color/grey"
-        android:textSize="50px"
-        android:paddingLeft="15dp"
         android:fontFamily="@font/quicksand_bold"
-        ></EditText>
+        android:hint="@string/input_absen"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/grey"
+        android:textSize="50px"></EditText>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/info"
-        android:layout_toEndOf="@+id/input_absen"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="150dp"
-        android:text="Absensi"
-        android:textAlignment="center"
-        android:textSize="15dp"
-        android:paddingTop="27dp"
-        android:textColor="@color/grey"
+        android:layout_marginEnd="36dp"
+        android:layout_toEndOf="@+id/input_absen"
+        android:background="@drawable/info"
         android:fontFamily="@font/quicksand_bold"
-        ></TextView>
+        android:paddingTop="27dp"
+        android:text="Absen"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:textSize="15dp"></TextView>
 
     <EditText
-        android:inputType="number"
         android:id="@+id/input_tugas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
         android:layout_below="@+id/input_absen"
-        android:background="@drawable/input_place"
-        android:hint=""
-        android:textColor="@color/grey"
-        android:textSize="50px"
-        android:paddingLeft="15dp"
-        android:fontFamily="@font/quicksand_bold"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp"
         android:layout_marginTop="10dp"
-        ></EditText>
+        android:background="@drawable/input_place"
+        android:fontFamily="@font/quicksand_bold"
+        android:hint="@string/input_tugas"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/grey"
+        android:textSize="50px"></EditText>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/info"
-        android:layout_toEndOf="@+id/input_tugas"
         android:layout_below="@+id/input_absen"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="36dp"
+        android:layout_toEndOf="@+id/input_tugas"
+        android:background="@drawable/info"
+        android:fontFamily="@font/quicksand_bold"
+        android:paddingTop="27dp"
         android:text="Tugas"
         android:textAlignment="center"
-        android:textSize="15dp"
-        android:paddingTop="27dp"
         android:textColor="@color/grey"
-        android:fontFamily="@font/quicksand_bold"
-        android:layout_marginTop="10dp"
-        ></TextView>
+        android:textSize="15dp"></TextView>
 
     <EditText
-        android:inputType="number"
         android:id="@+id/input_uts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
         android:layout_below="@+id/input_tugas"
-        android:background="@drawable/input_place"
-        android:hint=""
-        android:textColor="@color/grey"
-        android:textSize="50px"
-        android:paddingLeft="15dp"
-        android:fontFamily="@font/quicksand_bold"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp"
         android:layout_marginTop="10dp"
-        ></EditText>
+        android:background="@drawable/input_place"
+        android:fontFamily="@font/quicksand_bold"
+        android:hint="@string/input_uts"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/grey"
+        android:textSize="50px"></EditText>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/info"
-        android:layout_toEndOf="@+id/input_uts"
         android:layout_below="@+id/input_tugas"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="36dp"
+        android:layout_toEndOf="@+id/input_uts"
+        android:background="@drawable/info"
+        android:fontFamily="@font/quicksand_bold"
+        android:paddingTop="27dp"
         android:text="UTS"
         android:textAlignment="center"
-        android:textSize="15dp"
-        android:paddingTop="27dp"
         android:textColor="@color/grey"
-        android:fontFamily="@font/quicksand_bold"
-        android:layout_marginTop="10dp"
-        ></TextView>
+        android:textSize="15dp"></TextView>
 
     <EditText
-        android:inputType="number"
         android:id="@+id/input_uas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
         android:layout_below="@+id/input_uts"
-        android:background="@drawable/input_place"
-        android:hint=""
-        android:textColor="@color/grey"
-        android:textSize="50px"
-        android:paddingLeft="15dp"
-        android:fontFamily="@font/quicksand_bold"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="43dp"
         android:layout_marginTop="10dp"
-        ></EditText>
+        android:background="@drawable/input_place"
+        android:fontFamily="@font/quicksand_bold"
+        android:hint="@string/input_uas"
+        android:inputType="number"
+        android:paddingLeft="15dp"
+        android:textColor="@color/grey"
+        android:textColorHint="@color/grey"
+        android:textSize="50px"></EditText>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/info"
-        android:layout_toEndOf="@+id/input_uas"
         android:layout_below="@+id/input_uts"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="36dp"
+        android:layout_toEndOf="@+id/input_uas"
+        android:background="@drawable/info"
+        android:fontFamily="@font/quicksand_bold"
+        android:paddingTop="27dp"
         android:text="UAS"
         android:textAlignment="center"
-        android:textSize="15dp"
-        android:paddingTop="27dp"
         android:textColor="@color/grey"
-        android:fontFamily="@font/quicksand_bold"
-        android:layout_marginTop="10dp"
-        ></TextView>
+        android:textSize="15dp"></TextView>
 
-    <EditText
+    <TextView
+        android:textColor="@color/grey"
         android:id="@+id/nilaiangka"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -158,9 +172,11 @@
         android:layout_below="@+id/input_uas"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="40dp"
+        android:gravity="center"
         >
-    </EditText>
-    <EditText
+    </TextView>
+    <TextView
+        android:textColor="@color/grey"
         android:id="@+id/nilaihuruf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -168,8 +184,8 @@
         android:layout_below="@+id/nilaiangka"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
+        android:gravity="center"
         >
-    </EditText>
-
+    </TextView>
 
 </RelativeLayout>
